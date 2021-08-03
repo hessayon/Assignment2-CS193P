@@ -12,5 +12,7 @@ Also the app supports 6 themes. Each theme has its own emoji set, color and numb
 
 The app is build with MVVM architecture pattern using SwiftUI framework.
 
-#Screenshots
+# Screenshots
+
+<img src="https://user-images.githubusercontent.com/53599412/128068221-5604daf8-0b29-4ecc-aa1b-551eb3d80199.png" width="200" />, <img src="https://user-images.githubusercontent.com/53599412/128068236-ddd46ac3-020c-4e16-82d1-ce23f9a58356.png" width="200" />, <img src="https://user-images.githubusercontent.com/53599412/128068255-e5bd1a04-b5b0-4300-b78d-952e5689f62a.png" width="200" />
 
