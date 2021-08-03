@@ -64,6 +64,11 @@ struct CardView: View {
             } else {
                 shape
                     .fill()
+/*                    .fill(LinearGradient(gradient: Gradient(
+                        colors: [.yellow, .red, .purple, .blue]),
+                        startPoint: .top,
+                        endPoint: .bottom)) // Extra Credit 3 (not sure about
+                                                the correctness of the task */
             }
         }
 
