@@ -34,6 +34,7 @@ struct MemoryGame<CardContent> where CardContent: Equatable {
                     score += min(10 - Int(numOfSecondsSinceCardWasChosen), -1) // Extra Credit 4
                 }
                 indexOfTheOnlyOneFaceUpCard = nil
+                timeWhenTheOnlyOneFaceUpCardWasChosen = nil
             } else {
                 indexOfTheOnlyOneFaceUpCard = chosenIndex
                 timeWhenTheOnlyOneFaceUpCardWasChosen = Date()
