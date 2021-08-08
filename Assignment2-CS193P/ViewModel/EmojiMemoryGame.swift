@@ -17,7 +17,7 @@ class EmojiMemoryGame : ObservableObject {
         
     }
     
-    static let themes : Array<MemoryGameTheme> = [
+    private static let themes : Array<MemoryGameTheme> = [
         MemoryGameTheme(.animals, color: "orange", numberOfPairsOfCards: 10),
         MemoryGameTheme(.flags, color: "red", numberOfPairsOfCards: 8),
         MemoryGameTheme(.fruits, color: "purpule", numberOfPairsOfCards: 7),
@@ -25,7 +25,7 @@ class EmojiMemoryGame : ObservableObject {
         MemoryGameTheme(.sport, color: "blue", numberOfPairsOfCards: 7),
         MemoryGameTheme(.tools, color: "pink") // Extra credit 1
     ]
-    static func createMemoryGame(theme: MemoryGameTheme) -> MemoryGame<String> {
+    private static func createMemoryGame(theme: MemoryGameTheme) -> MemoryGame<String> {
         MemoryGame<String>(numberOfPairsOfCards: theme.numberOfPairsOfCards) {
             (pairIndex) in theme.emojis[pairIndex]
         }
