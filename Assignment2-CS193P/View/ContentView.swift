@@ -68,7 +68,7 @@ struct CardView: View {
                         colors: [.yellow, .red, .purple, .blue]),
                         startPoint: .top,
                         endPoint: .bottom)) // Extra Credit 3 (not sure about
-                                                the correctness of the task */
+                                                the correctness of the task) */
             }
         }
 
